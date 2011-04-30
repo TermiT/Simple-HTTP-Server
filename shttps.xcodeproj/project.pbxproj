@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777D63A213686A2D009E05F1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 777D63A113686A2D009E05F1 /* icon.png */; };
+		777D63A613686B70009E05F1 /* tray-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 777D63A413686B70009E05F1 /* tray-off.png */; };
+		777D63A713686B70009E05F1 /* tray-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 777D63A513686B70009E05F1 /* tray-on.png */; };
+		DB5204D41367E9EE00365B02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5204D31367E9EE00365B02 /* Cocoa.framework */; };
+		DB5204DE1367E9EE00365B02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB5204DC1367E9EE00365B02 /* InfoPlist.strings */; };
+		DB5204E11367E9EE00365B02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5204E01367E9EE00365B02 /* main.m */; };
+		DB5204E41367E9EE00365B02 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DB5204E21367E9EE00365B02 /* Credits.rtf */; };
+		DB5204E71367E9EE00365B02 /* shttpsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5204E61367E9EE00365B02 /* shttpsAppDelegate.m */; };
+		DB5204F11367E9EE00365B02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5204D31367E9EE00365B02 /* Cocoa.framework */; };
+		DB5204F91367E9EE00365B02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB5204F71367E9EE00365B02 /* InfoPlist.strings */; };
+		DB5204FC1367E9EE00365B02 /* shttpsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DB5204FB1367E9EE00365B02 /* shttpsTests.h */; };
+		DB5204FE1367E9EE00365B02 /* shttpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5204FD1367E9EE00365B02 /* shttpsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5204F21367E9EE00365B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5204C61367E9ED00365B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5204CE1367E9ED00365B02;
+			remoteInfo = shttps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		777D63A113686A2D009E05F1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		777D63A413686B70009E05F1 /* tray-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-off.png"; sourceTree = "<group>"; };
+		777D63A513686B70009E05F1 /* tray-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-on.png"; sourceTree = "<group>"; };
+		DB5204CF1367E9ED00365B02 /* shttps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shttps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5204D31367E9EE00365B02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DB5204D61367E9EE00365B02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DB5204D71367E9EE00365B02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DB5204D81367E9EE00365B02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB5204DB1367E9EE00365B02 /* shttps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shttps-Info.plist"; sourceTree = "<group>"; };
+		DB5204DD1367E9EE00365B02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB5204DF1367E9EE00365B02 /* shttps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shttps-Prefix.pch"; sourceTree = "<group>"; };
+		DB5204E01367E9EE00365B02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5204E31367E9EE00365B02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DB5204E51367E9EE00365B02 /* shttpsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shttpsAppDelegate.h; sourceTree = "<group>"; };
+		DB5204E61367E9EE00365B02 /* shttpsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shttpsAppDelegate.m; sourceTree = "<group>"; };
+		DB5204F01367E9EE00365B02 /* shttpsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shttpsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5204F61367E9EE00365B02 /* shttpsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shttpsTests-Info.plist"; sourceTree = "<group>"; };
+		DB5204F81367E9EE00365B02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB5204FA1367E9EE00365B02 /* shttpsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shttpsTests-Prefix.pch"; sourceTree = "<group>"; };
+		DB5204FB1367E9EE00365B02 /* shttpsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shttpsTests.h; sourceTree = "<group>"; };
+		DB5204FD1367E9EE00365B02 /* shttpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shttpsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5204CC1367E9ED00365B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5204D41367E9EE00365B02 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5204EC1367E9EE00365B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5204F11367E9EE00365B02 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5204C41367E9ED00365B02 = {
+			isa = PBXGroup;
+			children = (
+				777D63A113686A2D009E05F1 /* icon.png */,
+				777D63A413686B70009E05F1 /* tray-off.png */,
+				777D63A513686B70009E05F1 /* tray-on.png */,
+				DB5204D91367E9EE00365B02 /* shttps */,
+				DB5204F41367E9EE00365B02 /* shttpsTests */,
+				DB5204D21367E9EE00365B02 /* Frameworks */,
+				DB5204D01367E9ED00365B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5204D01367E9ED00365B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204CF1367E9ED00365B02 /* shttps.app */,
+				DB5204F01367E9EE00365B02 /* shttpsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5204D21367E9EE00365B02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204D31367E9EE00365B02 /* Cocoa.framework */,
+				DB5204D51367E9EE00365B02 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5204D51367E9EE00365B02 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204D61367E9EE00365B02 /* AppKit.framework */,
+				DB5204D71367E9EE00365B02 /* CoreData.framework */,
+				DB5204D81367E9EE00365B02 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DB5204D91367E9EE00365B02 /* shttps */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204E51367E9EE00365B02 /* shttpsAppDelegate.h */,
+				DB5204E61367E9EE00365B02 /* shttpsAppDelegate.m */,
+				DB5204DA1367E9EE00365B02 /* Supporting Files */,
+			);
+			path = shttps;
+			sourceTree = "<group>";
+		};
+		DB5204DA1367E9EE00365B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204DB1367E9EE00365B02 /* shttps-Info.plist */,
+				DB5204DC1367E9EE00365B02 /* InfoPlist.strings */,
+				DB5204DF1367E9EE00365B02 /* shttps-Prefix.pch */,
+				DB5204E01367E9EE00365B02 /* main.m */,
+				DB5204E21367E9EE00365B02 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB5204F41367E9EE00365B02 /* shttpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204FB1367E9EE00365B02 /* shttpsTests.h */,
+				DB5204FD1367E9EE00365B02 /* shttpsTests.m */,
+				DB5204F51367E9EE00365B02 /* Supporting Files */,
+			);
+			path = shttpsTests;
+			sourceTree = "<group>";
+		};
+		DB5204F51367E9EE00365B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5204F61367E9EE00365B02 /* shttpsTests-Info.plist */,
+				DB5204F71367E9EE00365B02 /* InfoPlist.strings */,
+				DB5204FA1367E9EE00365B02 /* shttpsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5204CE1367E9ED00365B02 /* shttps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5205011367E9EE00365B02 /* Build configuration list for PBXNativeTarget "shttps" */;
+			buildPhases = (
+				DB5204CB1367E9ED00365B02 /* Sources */,
+				DB5204CC1367E9ED00365B02 /* Frameworks */,
+				DB5204CD1367E9ED00365B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shttps;
+			productName = shttps;
+			productReference = DB5204CF1367E9ED00365B02 /* shttps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5204EF1367E9EE00365B02 /* shttpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5205041367E9EE00365B02 /* Build configuration list for PBXNativeTarget "shttpsTests" */;
+			buildPhases = (
+				DB5204EB1367E9EE00365B02 /* Sources */,
+				DB5204EC1367E9EE00365B02 /* Frameworks */,
+				DB5204ED1367E9EE00365B02 /* Resources */,
+				DB5204EE1367E9EE00365B02 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5204F31367E9EE00365B02 /* PBXTargetDependency */,
+			);
+			name = shttpsTests;
+			productName = shttpsTests;
+			productReference = DB5204F01367E9EE00365B02 /* shttpsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5204C61367E9ED00365B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "General Arcade";
+			};
+			buildConfigurationList = DB5204C91367E9ED00365B02 /* Build configuration list for PBXProject "shttps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB5204C41367E9ED00365B02;
+			productRefGroup = DB5204D01367E9ED00365B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5204CE1367E9ED00365B02 /* shttps */,
+				DB5204EF1367E9EE00365B02 /* shttpsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5204CD1367E9ED00365B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5204DE1367E9EE00365B02 /* InfoPlist.strings in Resources */,
+				DB5204E41367E9EE00365B02 /* Credits.rtf in Resources */,
+				777D63A213686A2D009E05F1 /* icon.png in Resources */,
+				777D63A613686B70009E05F1 /* tray-off.png in Resources */,
+				777D63A713686B70009E05F1 /* tray-on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5204ED1367E9EE00365B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5204F91367E9EE00365B02 /* InfoPlist.strings in Resources */,
+				DB5204FC1367E9EE00365B02 /* shttpsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB5204EE1367E9EE00365B02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5204CB1367E9ED00365B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5204E11367E9EE00365B02 /* main.m in Sources */,
+				DB5204E71367E9EE00365B02 /* shttpsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5204EB1367E9EE00365B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5204FE1367E9EE00365B02 /* shttpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5204F31367E9EE00365B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5204CE1367E9ED00365B02 /* shttps */;
+			targetProxy = DB5204F21367E9EE00365B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB5204DC1367E9EE00365B02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5204DD1367E9EE00365B02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB5204E21367E9EE00365B02 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5204E31367E9EE00365B02 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DB5204F71367E9EE00365B02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5204F81367E9EE00365B02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5204FF1367E9EE00365B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB5205001367E9EE00365B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB5205021367E9EE00365B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shttps/shttps-Prefix.pch";
+				INFOPLIST_FILE = "shttps/shttps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB5205031367E9EE00365B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shttps/shttps-Prefix.pch";
+				INFOPLIST_FILE = "shttps/shttps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB5205051367E9EE00365B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shttps.app/Contents/MacOS/shttps";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shttpsTests/shttpsTests-Prefix.pch";
+				INFOPLIST_FILE = "shttpsTests/shttpsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DB5205061367E9EE00365B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shttps.app/Contents/MacOS/shttps";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shttpsTests/shttpsTests-Prefix.pch";
+				INFOPLIST_FILE = "shttpsTests/shttpsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5204C91367E9ED00365B02 /* Build configuration list for PBXProject "shttps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5204FF1367E9EE00365B02 /* Debug */,
+				DB5205001367E9EE00365B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5205011367E9EE00365B02 /* Build configuration list for PBXNativeTarget "shttps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5205021367E9EE00365B02 /* Debug */,
+				DB5205031367E9EE00365B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5205041367E9EE00365B02 /* Build configuration list for PBXNativeTarget "shttpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5205051367E9EE00365B02 /* Debug */,
+				DB5205061367E9EE00365B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5204C61367E9ED00365B02 /* Project object */;
+}
