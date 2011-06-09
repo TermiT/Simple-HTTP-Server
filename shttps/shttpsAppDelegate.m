@@ -5,7 +5,6 @@
 //  Created by Gennadiy Potapov on 4/27/11.
 //  Copyright 2011 General Arcade. All rights reserved.
 //
-
 #import "shttpsAppDelegate.h"
 
 @implementation shttpsAppDelegate

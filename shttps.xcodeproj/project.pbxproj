@@ -10,6 +10,8 @@
 		777D63A213686A2D009E05F1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 777D63A113686A2D009E05F1 /* icon.png */; };
 		777D63A613686B70009E05F1 /* tray-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 777D63A413686B70009E05F1 /* tray-off.png */; };
 		777D63A713686B70009E05F1 /* tray-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 777D63A513686B70009E05F1 /* tray-on.png */; };
+		77B7C09E1392683C007B40B9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B7C09D1392683C007B40B9 /* MainMenu.xib */; };
+		77B7C0A013928061007B40B9 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 77B7C09F13928061007B40B9 /* icon.icns */; };
 		DB5204D41367E9EE00365B02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5204D31367E9EE00365B02 /* Cocoa.framework */; };
 		DB5204DE1367E9EE00365B02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB5204DC1367E9EE00365B02 /* InfoPlist.strings */; };
 		DB5204E11367E9EE00365B02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5204E01367E9EE00365B02 /* main.m */; };
@@ -35,7 +37,9 @@
 		777D63A113686A2D009E05F1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		777D63A413686B70009E05F1 /* tray-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-off.png"; sourceTree = "<group>"; };
 		777D63A513686B70009E05F1 /* tray-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-on.png"; sourceTree = "<group>"; };
-		DB5204CF1367E9ED00365B02 /* shttps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shttps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B7C09D1392683C007B40B9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		77B7C09F13928061007B40B9 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		DB5204CF1367E9ED00365B02 /* SimpleHTTPServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHTTPServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5204D31367E9EE00365B02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DB5204D61367E9EE00365B02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DB5204D71367E9EE00365B02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -78,6 +82,7 @@
 		DB5204C41367E9ED00365B02 = {
 			isa = PBXGroup;
 			children = (
+				77B7C09F13928061007B40B9 /* icon.icns */,
 				777D63A113686A2D009E05F1 /* icon.png */,
 				777D63A413686B70009E05F1 /* tray-off.png */,
 				777D63A513686B70009E05F1 /* tray-on.png */,
@@ -91,7 +96,7 @@
 		DB5204D01367E9ED00365B02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB5204CF1367E9ED00365B02 /* shttps.app */,
+				DB5204CF1367E9ED00365B02 /* SimpleHTTPServer.app */,
 				DB5204F01367E9EE00365B02 /* shttpsTests.octest */,
 			);
 			name = Products;
@@ -130,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				DB5204DB1367E9EE00365B02 /* shttps-Info.plist */,
+				77B7C09D1392683C007B40B9 /* MainMenu.xib */,
 				DB5204DC1367E9EE00365B02 /* InfoPlist.strings */,
 				DB5204DF1367E9EE00365B02 /* shttps-Prefix.pch */,
 				DB5204E01367E9EE00365B02 /* main.m */,
@@ -175,7 +181,7 @@
 			);
 			name = shttps;
 			productName = shttps;
-			productReference = DB5204CF1367E9ED00365B02 /* shttps.app */;
+			productReference = DB5204CF1367E9ED00365B02 /* SimpleHTTPServer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DB5204EF1367E9EE00365B02 /* shttpsTests */ = {
@@ -233,6 +239,8 @@
 				777D63A213686A2D009E05F1 /* icon.png in Resources */,
 				777D63A613686B70009E05F1 /* tray-off.png in Resources */,
 				777D63A713686B70009E05F1 /* tray-on.png in Resources */,
+				77B7C09E1392683C007B40B9 /* MainMenu.xib in Resources */,
+				77B7C0A013928061007B40B9 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Gennadiy Potapov";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -341,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Gennadiy Potapov";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -355,13 +365,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Gennadiy Potapov";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "shttps/shttps-Prefix.pch";
 				INFOPLIST_FILE = "shttps/shttps-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = SimpleHTTPServer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,13 +382,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Gennadiy Potapov";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "shttps/shttps-Prefix.pch";
 				INFOPLIST_FILE = "shttps/shttps-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = SimpleHTTPServer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
